@@ -5,7 +5,7 @@ namespace ZaloMini.Client
 {
     internal static class UiTheme
     {
-        public static readonly Color PrimaryColor = Color.FromArgb(0, 104, 255);
+        public static readonly Color PrimaryColor = Color.FromArgb(0, 104, 255); // #0068FF
         public static readonly Color PrimaryHoverColor = Color.FromArgb(0, 92, 230);
 
         public static readonly Color AppBackground = Color.WhiteSmoke;

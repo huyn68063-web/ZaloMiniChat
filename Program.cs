@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ZaloMini.Client
@@ -13,7 +10,27 @@ namespace ZaloMini.Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormSplash());
+
+            using (var splash = new FormSplash())
+            {
+                splash.ShowDialog();
+            }
+
+            while (true)
+            {
+                using (var login = new FormLogin())
+                {
+                    if (login.ShowDialog() != DialogResult.OK)
+                    {
+                        return;
+                    }
+
+                    using (var chat = new FormChat(null, login.LoggedInUsername))
+                    {
+                        chat.ShowDialog();
+                    }
+                }
+            }
         }
     }
 }
