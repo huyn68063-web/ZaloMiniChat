@@ -1,0 +1,28 @@
+﻿[15:32] 1: hello
+[15:32] 1: chào bạn
+[16:15] 1: xin chào
+[16:29] 1: hello
+[16:32] 1: hello
+[16:39] 1: hello các bạn
+[16:39] 1: 1
+[16:39] 1: 2
+[16:39] 1: 3
+[16:41] 1: hello
+[16:42] 1: chào các bạn
+[16:46] 1: mọi người trong nhóm
+[16:46] 1: hello
+[16:51] 1: hello
+[16:55] 1: hello
+[17:05] 1: hello
+[17:05] 1: hello
+[17:14] 1: hello
+[17:14] 1: hello
+[17:15] 1: hello
+[17:15] 1: Xin chào các bạn
+[17:25] 1: hello
+[17:26] 1: chào các bạn
+[17:26] 1: chào
+[17:27] 1: hii
+[17:37] 1: hello
+[17:37] 1: xin chào Quỳnh
+[21:45] 1: hello
